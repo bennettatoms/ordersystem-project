@@ -7,7 +7,8 @@
     "dev": "webpack-cli; webpack-dev-server",
     "test": "echo \"Error: no test specified\" && exit 1",
     "watch": "webpack --watch",
-    "build": "webpack --bail --progress"
+    "build": "webpack --bail --progress",
+    "serve": "webpack-dev-server"
   },
   "author": "Sam Julien",
   "license": "ISC",

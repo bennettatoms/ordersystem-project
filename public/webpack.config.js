@@ -23,10 +23,11 @@ module.exports = {
         extensions: [".ts", ".js"]
     },
     output: {         
-        filename: './bundle.js'
+        filename: './bundle.js',
+        publicPath: 'dist/'
         // publicPath: path.join(__dirname, 'dist')
     },
     plugins: [
-        new webpack.HotModuleReplacementPlugin()
+        // new webpack.HotModuleReplacementPlugin()
     ]
 }

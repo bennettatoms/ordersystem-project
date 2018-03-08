@@ -6,7 +6,7 @@ var homeComponent = {
 
 function homeComponentController(){
     var vm = this;
-    vm.title = 'AwesomeInc. Internal Ordering System!';
+    vm.title = 'Awesomesausage, LLC, Internal Ordering System!';
 }
 
 export default homeComponent;
